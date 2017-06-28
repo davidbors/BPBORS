@@ -1,0 +1,24 @@
+.search{
+	width: 90%;
+	left: 5%;
+	padding-top: 20px;
+	position: relative;
+}
+
+.searchbar{
+	width: 80%;
+	left: 10%;
+	position: relative;
+}
+
+#sbmt {
+	width: 10%;
+	left: 90%;
+	position: absolute;
+}
+
+.opt{
+	width: 50%;
+	left: 25%;
+	position: relative;
+}

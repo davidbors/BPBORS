@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Adauga o carte</title>
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="dropdown.css" >
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" src="libraries/p5.dom.js"></script>
+    <script language="javascript" src="libraries/p5.sound.js"></script>
+    <script language="javascript" type="text/javascript" src="add.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="biblioteca.html">HOME</a></li>
+        <li><a href="librarie.html">LIBRARIE</a></li>
+        <li><a class="active" href="add.html">ADAUGA O CARTE</a></li>
+        <li><a href="rev.php">REVIZUIESTE O CARTE</a></li>
+        <li style="float:right"><a href="help.php">BIBLIOTECA.ORG</a></li>
+    </ul>
+    <input class="input" type="text" id="title" placeholder="Titlul cartii"><br/>
+    <input class="input" type="text" id="autor" placeholder="Autorul cartii"><br/>
+    <input class="input" type="text" id="editura" placeholder="Editura cartii"><br/>
+    <input class="input" type="text" id="an" placeholder="Anul in care a fost tiparita cartea"><br/>
+    <input class="input" type="text" id="position" placeholder="Pozitia cartii"><br/>
+    <button class="input" type="button" name="button" id="sbtn">Submit</button>
+    <p class="selectTxt ">Selecteaza genul cartii din lista alaturata</p>
+    <select class="select" id="gen">
+         <option value="-">-</option>
+         <option value="Dramaturgie">Dramaturgie</option>
+         <option value="Poezie">Poezie</option>
+         <option value="Spiritualitate">Spiritualitate</option>
+         <option value="Stiinta">Stiinta</option>
+         <option value="Enciclopedie">Enciclopedie</option>
+         <option value="Sci-Fi">Sci-Fi</option>
+         <option value="Roman">Roman</option>
+         <option value="Western">Western</option>
+         <option value="Benzi comice">Benzi comice</option>
+       </select>
+    <!-- <input class="input" type="submit" id="sbtn" value="Submit"><br/> -->
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+	.titlu{
+		text-align: center;
+		text-decoration: underline;
+	}
+	.subtitlu{
+		text-align: center;
+		font-size: 25px;
+	}
+	.img {
+
+	}
+	.centered {
+		text-align: center;
+	}
+
+ .search_result {
+	 background-color: #bcbcbc;
+	 color: black;
+	 width: 50%;
+	 margin-left: 25%;
+	 font-size: 32px;
+	 border-radius: 6px;
+	 margin-bottom: 15px;
+	 text-decoration: none;
+	 list-style-type: none;
+ }
+
+ .search_result_title {
+	 text-align: center;
+ }

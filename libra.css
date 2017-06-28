@@ -1,0 +1,42 @@
+.book {
+    border-color: black;
+    border-radius: 6px;
+    background: #bfbfbf;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+  }
+  #id1{
+    margin-top: 8%;
+    position: fixed;
+  }
+  #titlu {
+    text-align: center;
+    font-size: 25px;
+  }
+  #numea {
+    text-align: left;
+    margin-left: 10px;
+  }
+  #numee {
+    text-align: left;
+    margin-left: 10px;
+  }
+  #loc {
+    text-align: left;
+    margin-left: 10px;
+  }
+  #useradd {
+    text-align: left;
+    margin-left: 10px;
+  }
+  #seemore {
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  a#seemore {
+    text-decoration: none;
+    color: black;
+  }
+

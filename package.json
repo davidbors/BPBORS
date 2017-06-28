@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "node librarie.js"
+  },
+  "name": "api_44F",
+  "version": "0.0.1"
+}

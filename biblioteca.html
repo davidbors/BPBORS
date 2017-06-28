@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="biblioteca.css">
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" src="libraries/p5.dom.js"></script>
+    <script language="javascript" src="libraries/p5.sound.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+    <script language="javascript" src="biblioteca.js"></script>
+    <title>Biblioteca.org</title>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="biblioteca.html">HOME</a></li>
+        <li><a href="librarie.html">LIBRARIE</a></li>
+        <li><a href="add.html">ADAUGA O CARTE</a></li>
+        <li><a href="rev.php">REVIZUIESTE O CARTE</a></li>
+        <li style="float:right"><a href="help.php">BIBLIOTECA.ORG</a></li>
+    </ul>
+
+    <div class="search">
+      <input type="text" name="search" placeholder="Cauta o carte dupa titlu/autor" class="searchbar" id="inpt">
+      <button id="sbmt">Search!</button> 
+      <hr>
+      <div class="opt">
+        <input type="radio" name="by" value="titlu" id="ttl">Titlu
+        <input type="radio" name="by" value="autor" id="atr">Autor  
+      </div> 
+    </div>
+
+
+    <!--search div-->
+    <!--   <div>
+       <form action="biblioteca.php" method="post">
+          <input type="text" name="src" placeholder="Scrie titlul cartii pe care vrei sa o cauti"> <input type="submit" name="subtn" value="Submit">
+       </form>
+
+     </div> -->
+    <!--book div-->
+    <!--   <div class="book">
+       <p id="titlu">Nume carte</p>
+       <p id="numea">Nume autor</p>
+       <p id="numee">Nume editura si anul aparitiei</p>
+       <p id="loc">Loc in biblioteca</p>
+       <p id="useradd">Numele celui care a adaugat cartea</p>
+       <a href="seemore.php" id="seemore"><p id="seemore">Vezi detalii</p></a>
+     </div> -->
+</body>
+
+</html>
